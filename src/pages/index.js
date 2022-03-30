@@ -1,184 +1,310 @@
-import * as React from "react"
+import React from "react";
+import "../styles/style.css";
+import Nav from "../components/nav";
+import Container from "../components/container";
+import Row from "../components/row";
+import Section from "../components/section";
+import mist from "../images/mist.svg";
+import hero from "../images/hero.svg";
+import HeroBlock from "../components/heroblock";
+import TextBlock from "../components/textblock";
+import FactionCard from "../components/factioncard";
+import fire_faction from "../images/fire_faction.png";
+import water_faction from "../images/water_faction.png";
+import to_be_revealed_faction from "../images/to_be_revealed_faction.png";
+import dark_faction from "../images/dark_faction.png";
+import cyborg_faction from "../images/cyborg_faction.png";
+import forest_hills from "../images/forest_hills.svg";
+import water_dragon from "../images/water_dragon.png";
+import vegetation from "../images/vegetation.svg";
+import hills from "../images/hills.svg";
+import roadmap from "../images/roadmap.svg";
+import cave from "../images/cave.svg";
+import TeamMember from "../components/teammember";
+import lawliet from "../images/lawliet.png";
+import zealot from "../images/zealot.png";
+import raphael_hatencia from "../images/raphael_hatencia.png";
+import founding_dragon from "../images/founding_dragon.png";
+import pitaszenko from "../images/pitaszenko.png";
+import Footer from "../components/footer";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
-
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-]
-
-// markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
-  )
-}
+    <>
+      <Section
+        padding="5rem 0 0"
+        minHeight="76.25rem"
+        backgroundImage={`url(${mist}), url(${hero})`}
+        backgroundSize="auto, auto 100%"
+        backgroundPosition="center 3rem, center"
+        backgroundRepeat="no-repeat, repeat"
+      >
+        <Container>
+          <Nav />
+          <HeroBlock />
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Row>
+            <Row.Col size={6} sizeMd={12}>
+              <TextBlock textAlign={"right"}>
+                <TextBlock.Heading>
+                  A Deflationary Token System
+                </TextBlock.Heading>
+                <TextBlock.Text>
+                  The Deflationary Dragons NFT collection will implement a
+                  “Guaranteed Floor Price” (GFP) for each NFT in the collection
+                  by promising to repurchase every NFT which is ever listed
+                  below the GFP. NFTs which are repurchased will then be put up
+                  to a “last chance auction” with the starting bid at GFP and
+                  open to holders only. If the auction ends with zero bids, the
+                  NFT will be permanently burned, and thus the overall supply of
+                  the collection will decrease, hence creating a deflationary
+                  token system.
+                </TextBlock.Text>
+              </TextBlock>
+            </Row.Col>
+            <Row.Col size={6} sizeMd={12}>
+              <TextBlock>
+                <TextBlock.Heading>Dragon Factions</TextBlock.Heading>
+                <TextBlock.Text>
+                  The Deflationary Dragons NFT collection will be composed of 8
+                  Dragon Factionswith each faction consisting of 111 Dragons,
+                  hence totaling an overall supply of 888 Dragons. The 8 Dragon
+                  Factions are: Fire, Water, Earth, Air, Dark, Celestial,
+                  Lightning, and Cyborg. Factions will serve to grow and expand
+                  community involvement and engagement by playing a key role
+                  within the community. Learn more about Factions on our project
+                  Whitepaper.
+                </TextBlock.Text>
+              </TextBlock>
+            </Row.Col>
+          </Row>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Row>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={fire_faction} />
+                <FactionCard.Name>Fire</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={water_faction} />
+                <FactionCard.Name>Water</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Name>Earth</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Name>Air</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Name>Celestial</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={dark_faction} />
+                <FactionCard.Name>Dark</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Name>Lightning</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+            <Row.Col size={3} sizeSm={6}>
+              <FactionCard>
+                <FactionCard.Image src={cyborg_faction} />
+                <FactionCard.Name>Cyborg</FactionCard.Name>
+              </FactionCard>
+            </Row.Col>
+          </Row>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Row alignCenter>
+            <Row.Col size={8} sizeSm={12}>
+              <TextBlock textAlign="center">
+                <TextBlock.Heading>Dragon Ranks</TextBlock.Heading>
+                <TextBlock.Text>
+                  Within each Dragon Faction, there will be Dragons with
+                  different ranks. The guaranteed floor price of a Dragon will
+                  be directly based on rank. Within the 111 Dragons in each
+                  faction there will be:
+                </TextBlock.Text>
+                <TextBlock.Text>
+                  1 Elder Dragon with a 8 SOL guaranteed floor price
+                  <br />
+                  10 King Dragons with a 1.8 SOL guaranteed floor price
+                  <br />
+                  100 Warrior Dragons with a 0.8 SOL guaranteed floor price
+                </TextBlock.Text>
+                <TextBlock.Text>
+                  Aside from having a higher GFP, Elder Dragons and King Dragons
+                  will also have boosted staking rewards, better breeding
+                  results, a more significant role in story events, and they
+                  will act as leaders within their factions.
+                </TextBlock.Text>
+              </TextBlock>
+            </Row.Col>
+          </Row>
+        </Container>
+      </Section>
+      <Section
+        padding="12rem 0 0"
+        minHeight="90rem"
+        backgroundImage={`url(${forest_hills})`}
+        backgroundSize="auto 100%"
+        backgroundPosition="center"
+      >
+        <Container>
+          <Row>
+            <Row.Col size={8} sizeSm={12}>
+              <TextBlock>
+                <TextBlock.Heading>Utility</TextBlock.Heading>
+                <TextBlock.List>
+                  <TextBlock.List.Item>
+                    Access to private holder-only and faction-only discord
+                    channels in server
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Access to immediate liquidity at GFP if one is desperate to
+                    sell
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Revenue share of royalties from sales in secondary market
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Revenue share of mint and royalties from future Gen-1
+                    Collection and any other future collections
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Ability to stake the Dragon NFT for an increased share of
+                    the above revenue streams proportional to how long one is
+                    staking for. Longer stake = larger percentage share of
+                    revenues
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Access to private holder-only and faction-only discord
+                    channels in server
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Those who stake their Dragon NFT will also earn rewards in
+                    the form of WL tokens and FREE mints for the future Gen-1
+                    Collection. Quantity will be determined by how long one has
+                    been staking for
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Ability to breed their Dragon NFT which will result in a
+                    free mint of the Gen-1 Collection.
+                  </TextBlock.List.Item>
+                  <TextBlock.List.Item>
+                    Lore Participation. Ability to participate in story events,
+                    vote on faction decisions, etc.
+                  </TextBlock.List.Item>
+                </TextBlock.List>
+              </TextBlock>
+            </Row.Col>
+            <Row.Col size={4} sizeSm={12}>
+              <img src={water_dragon} />
+            </Row.Col>
+          </Row>
+        </Container>
+      </Section>
+      <Section
+        padding="5rem 0 0"
+        minHeight="177.5rem"
+        backgroundImage={`url(${vegetation}), url(${hills}), url(${roadmap})`}
+        backgroundSize="auto calc(100% * (371 / 2130)), auto calc(100% * (825 / 2130)), auto calc(100% - 28rem)"
+        backgroundPosition="bottom, bottom, center"
+        backgroundRepeat="repeat-x, no-repeat, no-repeat"
+        roadmap
+      >
+        <Container>
+          <Section.Heading>Roadmap</Section.Heading>
+        </Container>
+      </Section>
+      <Section
+        padding="8rem 0 0"
+        minHeight="92rem"
+        backgroundImage={`url(${cave})`}
+        backgroundSize="auto calc(100% - 12rem)"
+        backgroundPosition="bottom"
+        backgroundRepeat="no-repeat"
+      >
+        <Container>
+          <Section.Heading>Our Team</Section.Heading>
+          <Row alignCenter>
+            <Row.Col size={3}>
+              <TeamMember>
+                <TeamMember.AvatarContainer>
+                  <TeamMember.Avatar src={lawliet}></TeamMember.Avatar>
+                </TeamMember.AvatarContainer>
+                <TeamMember.Name>Lawliet</TeamMember.Name>
+                <TeamMember.Role>Founder / Dev</TeamMember.Role>
+              </TeamMember>
+            </Row.Col>
+            <Row.Col size={3}>
+              <TeamMember>
+                <TeamMember.AvatarContainer>
+                  <TeamMember.Avatar src={zealot}></TeamMember.Avatar>
+                </TeamMember.AvatarContainer>
+                <TeamMember.Name>Zealot</TeamMember.Name>
+                <TeamMember.Role>Dev</TeamMember.Role>
+              </TeamMember>
+            </Row.Col>
+          </Row>
+          <Row alignCenter>
+            <Row.Col size={3}>
+              <TeamMember>
+                <TeamMember.AvatarContainer>
+                  <TeamMember.Avatar src={raphael_hatencia}></TeamMember.Avatar>
+                </TeamMember.AvatarContainer>
+                <TeamMember.Name>Raphael Hatencia</TeamMember.Name>
+                <TeamMember.Role>Artist</TeamMember.Role>
+              </TeamMember>
+            </Row.Col>
+            <Row.Col size={3}>
+              <TeamMember>
+                <TeamMember.AvatarContainer>
+                  <TeamMember.Avatar src={founding_dragon}></TeamMember.Avatar>
+                </TeamMember.AvatarContainer>
+                <TeamMember.Name>Founding Dragon</TeamMember.Name>
+                <TeamMember.Role>Writer</TeamMember.Role>
+              </TeamMember>
+            </Row.Col>
+            <Row.Col size={3}>
+              <TeamMember>
+                <TeamMember.AvatarContainer>
+                  <TeamMember.Avatar src={pitaszenko}></TeamMember.Avatar>
+                </TeamMember.AvatarContainer>
+                <TeamMember.Name>Pitaszenko</TeamMember.Name>
+                <TeamMember.Role>Lead Mod</TeamMember.Role>
+              </TeamMember>
+            </Row.Col>
+          </Row>
+          <Footer />
+        </Container>
+      </Section>
+    </>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
