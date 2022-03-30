@@ -64,7 +64,13 @@ const Footer = () => {
           <Link to="/lore">Lore</Link>
         </LinkButton>
         <LinkButton>
-          <Link to="/">Whitepaper</Link>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/document/u/1/d/e/2PACX-1vToMpx-m-cQTlk2mvz8Whv8fO4tkhcmTUHXxZ1xSZNh0nrsBVB4MMdmM1jCnmi71UfposFCaMkmUb4B/pub"
+          >
+            Whitepaper
+          </a>
         </LinkButton>
       </Links>
     </StyledFooter>

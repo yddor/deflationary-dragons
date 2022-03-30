@@ -138,9 +138,13 @@ const Nav = () => {
             </Link>
           </LinkWrapper>
           <LinkWrapper>
-            <Link to="/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://docs.google.com/document/u/1/d/e/2PACX-1vToMpx-m-cQTlk2mvz8Whv8fO4tkhcmTUHXxZ1xSZNh0nrsBVB4MMdmM1jCnmi71UfposFCaMkmUb4B/pub"
+            >
               <LinkButton>Whitepaper</LinkButton>
-            </Link>
+            </a>
           </LinkWrapper>
           <LinkWrapper>
             <a
