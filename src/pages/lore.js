@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../styles/style.css";
 import Section from "../components/section";
 import Container from "../components/container";
@@ -12,6 +13,11 @@ import forest_hills from "../images/forest_hills.svg";
 const LorePage = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Deflationary Dragons | Lore</title>
+        <link rel="canonical" href="https://www.deflationarydragons.com/lore" />
+      </Helmet>
       <Section
         padding="5rem 0 0"
         minHeight="45.75rem"

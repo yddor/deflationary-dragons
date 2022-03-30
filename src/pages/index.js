@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "../styles/style.css";
 import Nav from "../components/nav";
 import Container from "../components/container";
@@ -31,6 +32,11 @@ import Footer from "../components/footer";
 const IndexPage = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Deflationary Dragons</title>
+        <link rel="canonical" href="https://www.deflationarydragons.com/" />
+      </Helmet>
       <Section
         padding="5rem 0 0"
         minHeight="76.25rem"
