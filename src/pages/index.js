@@ -86,49 +86,49 @@ const IndexPage = () => {
       <Section>
         <Container>
           <Row>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={fire_faction} />
                 <FactionCard.Name>Fire</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={water_faction} />
                 <FactionCard.Name>Water</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={to_be_revealed_faction} renderNormal />
                 <FactionCard.Name>Earth</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={to_be_revealed_faction} renderNormal />
                 <FactionCard.Name>Air</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={to_be_revealed_faction} renderNormal />
                 <FactionCard.Name>Celestial</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={dark_faction} />
                 <FactionCard.Name>Dark</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={to_be_revealed_faction} renderNormal />
                 <FactionCard.Name>Lightning</FactionCard.Name>
               </FactionCard>
             </Row.Col>
-            <Row.Col size={3} sizeSm={6}>
+            <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
                 <FactionCard.Image src={cyborg_faction} />
                 <FactionCard.Name>Cyborg</FactionCard.Name>
@@ -248,7 +248,7 @@ const IndexPage = () => {
         <Container>
           <Section.Heading>Our Team</Section.Heading>
           <Row alignCenter>
-            <Row.Col size={3}>
+            <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
               <TeamMember>
                 <TeamMember.AvatarContainer>
                   <TeamMember.Avatar src={lawliet}></TeamMember.Avatar>
@@ -257,7 +257,7 @@ const IndexPage = () => {
                 <TeamMember.Role>Founder / Dev</TeamMember.Role>
               </TeamMember>
             </Row.Col>
-            <Row.Col size={3}>
+            <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
               <TeamMember>
                 <TeamMember.AvatarContainer>
                   <TeamMember.Avatar src={zealot}></TeamMember.Avatar>
@@ -268,7 +268,7 @@ const IndexPage = () => {
             </Row.Col>
           </Row>
           <Row alignCenter>
-            <Row.Col size={3}>
+            <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
               <TeamMember>
                 <TeamMember.AvatarContainer>
                   <TeamMember.Avatar src={raphael_hatencia}></TeamMember.Avatar>
@@ -277,7 +277,7 @@ const IndexPage = () => {
                 <TeamMember.Role>Artist</TeamMember.Role>
               </TeamMember>
             </Row.Col>
-            <Row.Col size={3}>
+            <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
               <TeamMember>
                 <TeamMember.AvatarContainer>
                   <TeamMember.Avatar src={founding_dragon}></TeamMember.Avatar>
@@ -286,7 +286,7 @@ const IndexPage = () => {
                 <TeamMember.Role>Writer</TeamMember.Role>
               </TeamMember>
             </Row.Col>
-            <Row.Col size={3}>
+            <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
               <TeamMember>
                 <TeamMember.AvatarContainer>
                   <TeamMember.Avatar src={pitaszenko}></TeamMember.Avatar>

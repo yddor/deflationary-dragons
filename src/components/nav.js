@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import Container from "./container";
 import logo_nav from "../images/logo_nav.svg";
 
 const Navbar = styled.div`

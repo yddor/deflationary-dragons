@@ -13,6 +13,10 @@ const Heading = styled.h1`
   font-size: 7.5rem;
   text-align: center;
   margin: 0 0 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 5rem;
+  }
 `;
 
 const Lead = styled.p`
@@ -31,6 +35,7 @@ const Cta = styled.a`
   background-color: #441b07;
   padding: 0.75rem 5rem;
   border-radius: 0.625rem;
+  text-align: center;
   cursor: not-allowed;
 `;
 

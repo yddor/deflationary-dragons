@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const TeamMember = styled.div`
+  margin: 2rem 0;
   text-align: center;
 `;
 
