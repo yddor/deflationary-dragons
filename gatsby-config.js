@@ -19,10 +19,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Deflationary Dragons",
-        short_name: "DD",
+        short_name: "Deflationary Dragons",
         start_url: "/",
-        background_color: "#371d23",
-        theme_color: "#371d23",
+        background_color: "#fff",
+        theme_color: "#fff",
         display: "standalone",
         icon: "src/images/favicon.png",
         crossOrigin: `use-credentials`,
