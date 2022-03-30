@@ -93,7 +93,7 @@ const LorePage = () => {
               its body, remaining separate by element but pure in form. Like the
               untamed energy of the universe before it, the remaining energy of
               the tamed elements condensed into a new race of 8 beings: the
-              Elder Dragons. Like nothing before them, the elders too felt
+              Elder Dragons. Like nothing before them, the Elders too felt
               lonely in the lands from which they resided and claimed. Thus,
               they too began to create life from the world, shaping their
               surrounding elements to create beings in their image. The first
