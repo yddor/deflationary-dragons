@@ -137,9 +137,11 @@ const Nav = () => {
               <LinkButton>Lore</LinkButton>
             </Link>
           </LinkWrapper>
-          {/* <Link to="/">
+          <LinkWrapper>
+            <Link to="/">
               <LinkButton>Whitepaper</LinkButton>
-            </Link> */}
+            </Link>
+          </LinkWrapper>
           <LinkWrapper>
             <a
               target="_blank"
