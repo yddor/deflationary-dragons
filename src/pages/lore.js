@@ -58,7 +58,7 @@ const LorePage = () => {
               becoming its wings, water its blood, lightning providing it a
               source of energy, nurturing earth embodying in the formation of
               its feet, precious metals forming into bones, darkness forming its
-              eyes, and light creating its heart
+              eyes, and light creating its heart.
             </TextBlock.Text>
             <TextBlock.Text>
               Taming the last of the energy within itself, the Founding Dragon
@@ -98,7 +98,7 @@ const LorePage = () => {
               they too began to create life from the world, shaping their
               surrounding elements to create beings in their image. The first
               children the Elders created were a race of dragons known as the
-              Kings. In the creation of the kings, the Elders noticed the sizes
+              Kings. In the creation of the Kings, the Elders noticed the sizes
               of their domains began to diminish from their birth and creation.
               But worrying their King children would feel lonely themselves, the
               Elders decided to continue creating. They built their Kings a new

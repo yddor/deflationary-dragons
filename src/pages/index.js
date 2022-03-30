@@ -70,7 +70,7 @@ const IndexPage = () => {
                 <TextBlock.Heading>Dragon Factions</TextBlock.Heading>
                 <TextBlock.Text>
                   The Deflationary Dragons NFT collection will be composed of 8
-                  Dragon Factionswith each faction consisting of 111 Dragons,
+                  Dragon Factions with each faction consisting of 111 Dragons,
                   hence totaling an overall supply of 888 Dragons. The 8 Dragon
                   Factions are: Fire, Water, Earth, Air, Dark, Celestial,
                   Lightning, and Cyborg. Factions will serve to grow and expand
@@ -200,10 +200,6 @@ const IndexPage = () => {
                     the above revenue streams proportional to how long one is
                     staking for. Longer stake = larger percentage share of
                     revenues
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Access to private holder-only and faction-only discord
-                    channels in server
                   </TextBlock.List.Item>
                   <TextBlock.List.Item>
                     Those who stake their Dragon NFT will also earn rewards in
