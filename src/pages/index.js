@@ -124,7 +124,7 @@ const IndexPage = () => {
             </Row.Col>
             <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
-                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Image src={to_be_revealed_faction} />
                 <FactionCard.Name>Lightning</FactionCard.Name>
               </FactionCard>
             </Row.Col>
