@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/style.css";
 import Section from "../components/section";
 import Container from "../components/container";
 import Nav from "../components/nav";
