@@ -14,6 +14,7 @@ import fire_faction from "../images/fire_faction.png";
 import water_faction from "../images/water_faction.png";
 import to_be_revealed_faction from "../images/to_be_revealed_faction.png";
 import dark_faction from "../images/dark_faction.png";
+import celestial_faction from "../images/celestial_faction.png";
 import cyborg_faction from "../images/cyborg_faction.png";
 import forest_hills from "../images/forest_hills.svg";
 import water_dragon from "../images/water_dragon.png";
@@ -118,7 +119,7 @@ const IndexPage = () => {
             </Row.Col>
             <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
-                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Image src={celestial_faction} />
                 <FactionCard.Name>Celestial</FactionCard.Name>
               </FactionCard>
             </Row.Col>
