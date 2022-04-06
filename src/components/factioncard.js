@@ -6,7 +6,7 @@ const FactionCard = styled.div``;
 const Image = styled.img`
   display: block;
   width: 100%;
-  ${(props) => !props.renderNormal && "image-rendering: pixelated"};
+  image-rendering: pixelated;
 `;
 
 const Name = styled.h4`

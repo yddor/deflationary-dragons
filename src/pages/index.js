@@ -12,9 +12,10 @@ import TextBlock from "../components/textblock";
 import FactionCard from "../components/factioncard";
 import fire_faction from "../images/fire_faction.png";
 import water_faction from "../images/water_faction.png";
-import to_be_revealed_faction from "../images/to_be_revealed_faction.png";
-import dark_faction from "../images/dark_faction.png";
+import earth_faction from "../images/earth_faction.png";
+import air_faction from "../images/air_faction.png";
 import celestial_faction from "../images/celestial_faction.png";
+import dark_faction from "../images/dark_faction.png";
 import lightning_faction from "../images/lightning_faction.png";
 import cyborg_faction from "../images/cyborg_faction.png";
 import forest_hills from "../images/forest_hills.svg";
@@ -108,13 +109,13 @@ const IndexPage = () => {
             </Row.Col>
             <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
-                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Image src={earth_faction} />
                 <FactionCard.Name>Earth</FactionCard.Name>
               </FactionCard>
             </Row.Col>
             <Row.Col size={3} sizeSm={6} sizeXs={12}>
               <FactionCard>
-                <FactionCard.Image src={to_be_revealed_faction} renderNormal />
+                <FactionCard.Image src={air_faction} />
                 <FactionCard.Name>Air</FactionCard.Name>
               </FactionCard>
             </Row.Col>
