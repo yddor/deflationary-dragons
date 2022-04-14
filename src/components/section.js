@@ -31,9 +31,18 @@ const Heading = styled.h2`
   font-family: "New Rocker";
   font-size: 4.75rem;
   margin: ${(props) => (props.margin ? props.margin : "0 0 2rem")};
+  text-align: ${(props) => (props.textAlign ? props.textAlign : "center")};
+`;
+
+const Subheading = styled.h2`
+  font-family: "New Rocker";
+  font-size: 3rem;
+  margin: ${(props) => (props.margin ? props.margin : "0 0 2rem")};
   text-align: center;
+  font-weight: 400;
 `;
 
 Section.Heading = Heading;
+Section.Subheading = Subheading;
 
 export default Section;

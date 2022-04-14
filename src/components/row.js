@@ -8,6 +8,7 @@ const Row = styled.div`
   margin-left: -2rem;
 
   ${(props) => props.alignCenter && "justify-content: center"};
+  ${(props) => props.alignCenterVertically && "align-content: center"};
 `;
 
 const Col = styled.div`

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import logo_nav from "../images/logo_nav.svg";
+import whitepaper from "../pdf/DD_Official_Whitepaper_v2.0.pdf";
 
 const Navbar = styled.div`
   height: 5rem;
@@ -40,8 +41,8 @@ const Toggle = styled.button`
     display: block;
 
     ${(props) =>
-      props.open === true &&
-      `
+    props.open === true &&
+    `
     &::before {
       top: 2.75rem;
       transform: rotate(-45deg);
@@ -140,7 +141,7 @@ const Nav = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://docs.google.com/document/u/1/d/e/2PACX-1vToMpx-m-cQTlk2mvz8Whv8fO4tkhcmTUHXxZ1xSZNh0nrsBVB4MMdmM1jCnmi71UfposFCaMkmUb4B/pub"
+              href={whitepaper}
             >
               <LinkButton>Whitepaper</LinkButton>
             </a>
