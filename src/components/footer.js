@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import logo_footer from "../images/logo_footer.svg";
 import { Link } from "gatsby";
+import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0.pdf";
 
 const StyledFooter = styled.div`
   margin-top: 8rem;
@@ -67,7 +68,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://docs.google.com/document/u/1/d/e/2PACX-1vToMpx-m-cQTlk2mvz8Whv8fO4tkhcmTUHXxZ1xSZNh0nrsBVB4MMdmM1jCnmi71UfposFCaMkmUb4B/pub"
+            href={whitepaper}
           >
             Whitepaper
           </a>
