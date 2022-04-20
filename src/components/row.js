@@ -16,6 +16,8 @@ const Col = styled.div`
   padding-right: 2rem;
   padding-left: 2rem;
 
+  ${(props) => props.divided && `border-left: 1px solid rgba(255, 255, 255, 0.5);`}
+
   ${(props) => props.size && `width: calc(100% * (${props.size} / 12));`}
 
   @media (max-width: 1400px) {

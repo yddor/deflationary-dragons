@@ -19,6 +19,7 @@ import dark_faction from "../images/dark_faction.png";
 import lightning_faction from "../images/lightning_faction.png";
 import cyborg_faction from "../images/cyborg_faction.png";
 import forest_hills from "../images/forest_hills.svg";
+import StakingTiers from "../components/stakingtiers";
 import water_dragon from "../images/water_dragon.png";
 import vegetation from "../images/vegetation.svg";
 import hills from "../images/hills.svg";
@@ -176,6 +177,75 @@ const IndexPage = () => {
           </Row>
         </Container>
       </Section>
+      {/* <Section>
+        <Container>
+          <TextBlock textAlign="center">
+            <TextBlock.Heading>Tier-Based Staking</TextBlock.Heading>
+            <TextBlock.Text>
+              Immediately following the mint, Deflationary Dragon NFT holders
+              will have the option to stake their Dragon NFTs in exchange for
+              rewards. Unlike other projects which reward staking with a
+              separate native project token with little to no utility outside of
+              the project, Deflationary Dragon NFT staking will be rewarded
+              directly via airdropped SOL as well as with additional rewards in
+              the form of whitelist tokens and free mints for the future Gen-1
+              project (see Gen-1 NFT Collection). Deflationary Dragon NFT
+              Holders will be categorized into 5 Tiers based on staking method
+              and time staked. Staking rewards will vary depending on tier, with
+              the highest tier earning the most rewards. Deflationary Dragon
+              staking rewards include: a percentage revenue share of royalties
+              from secondary sales of the Deflationary Dragon Gen-0 NFT
+              collection, a percentage revenue share of mint and secondary sale
+              royalties from the future Gen-1 NFT Collection (specified under
+              Gen-1 NFT Collection), and whitelist tokens/free mints for the
+              Gen-1 NFT Collection.
+            </TextBlock.Text>
+          </TextBlock>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <StakingTiers />
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Row>
+            <Row.Col size={6} sizeMd={12}>
+              <TextBlock textAlign="center">
+                <TextBlock.Heading>Liquid Staking</TextBlock.Heading>
+                <TextBlock.Text>
+                  Holders can actively stake and un-stake at any time. No
+                  penalty for unstaking. Tier will be determined by overall time
+                  staked. However time staked will reset to 0 if sold on a
+                  secondary market. For example: Holder stakes for 7 days,
+                  unstakes for 2 days, resumes staking for 7 days. Total time
+                  staked will be 7 + 7 = 14 days. On the 14th day of staking,
+                  the Dragon staked will reach tier 4 and unlock tier 4 rewards.
+                </TextBlock.Text>
+              </TextBlock>
+            </Row.Col>
+            <Row.Col size={6} sizeMd={12} divided>
+              <TextBlock textAlign="center">
+                <TextBlock.Heading>Liquid Staking</TextBlock.Heading>
+                <TextBlock.Text>
+                  Holders will choose to stake and lock up their NFT until the
+                  Gen-1 Collection mint date. This action cannot be undone, once
+                  locked, holder will not be able to unstake until the mint of
+                  the Gen-1 Collection. Traditional Stakers will immediately
+                  unlock tier rewards at the time of staking. Note 1: The only
+                  way to access Tier 1 is to do traditional staking within 8
+                  days of mint. Note 2: Traditional Staked Deflationary Dragons
+                  will still be able to breed (see Breeding) For example: Holder
+                  chooses to lock up Dragon through traditional staking within 8
+                  days of mint. Dragon staked will immediately reach tier 1 and
+                  unlock tier 1 rewards.
+                </TextBlock.Text>
+              </TextBlock>
+            </Row.Col>
+          </Row>
+        </Container>
+      </Section> */}
       <Section
         padding="12rem 0 0"
         minHeight="90rem"
@@ -266,7 +336,7 @@ const IndexPage = () => {
                 <TeamMember.Role>Founder / Dev</TeamMember.Role>
               </TeamMember>
             </Row.Col>
-            <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
+            {/* <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>
               <TeamMember>
                 <TeamMember.AvatarContainer>
                   <TeamMember.Avatar src={zealot}></TeamMember.Avatar>
@@ -274,7 +344,7 @@ const IndexPage = () => {
                 <TeamMember.Name>Zealot</TeamMember.Name>
                 <TeamMember.Role>Dev</TeamMember.Role>
               </TeamMember>
-            </Row.Col>
+            </Row.Col> */}
           </Row>
           <Row alignCenter>
             <Row.Col size={3} sizeMd={4} sizeSm={6} sizeXs={12}>

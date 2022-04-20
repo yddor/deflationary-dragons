@@ -45,7 +45,7 @@ const StakingTiers = () => {
             Requirements: No Requirements. All Deflationary Dragon NFTs will
             automatically be in Tier 5
             <br />
-            Rewards: 3x Gen-1 WL Tokens + Base Gen-0/Gen-1 revenue share in SOL
+            Rewards: 1x Gen-1 WL Tokens + Base Gen-0/Gen-1 revenue share in SOL
           </Row.Col>
         </Row>
       </Item>
@@ -57,7 +57,7 @@ const StakingTiers = () => {
           <Row.Col size={10} sizeXs={12}>
             Requirements: Total of 14 days of liquid or traditional staking
             <br />
-            Rewards: 3x Gen-1 WL Tokens, 1x Gen-1 Free Mint + 1.2x Base
+            Rewards: 1x Gen-1 WL Tokens, 1x Gen-1 Free Mint + 1.2x Base
             Gen-0/Gen-1 revenue share in SOL
           </Row.Col>
         </Row>
@@ -70,7 +70,7 @@ const StakingTiers = () => {
           <Row.Col size={10} sizeXs={12}>
             Requirements: Total of 30 days of liquid or traditional staking
             <br />
-            Rewards: 5x Gen-1 WL Tokens, 2x Gen-1 Free Mint + 1.5x Base
+            Rewards: 2x Gen-1 WL Tokens, 2x Gen-1 Free Mint + 1.5x Base
             Gen-0/Gen-1 revenue share in SOL
           </Row.Col>
         </Row>
@@ -83,7 +83,7 @@ const StakingTiers = () => {
           <Row.Col size={10} sizeXs={12}>
             Requirements: Total of 60 days of liquid or traditional staking
             <br />
-            Rewards: 8x Gen-1 WL Tokens, 3x Gen-1 Free Mint + 2x Base
+            Rewards: 3x Gen-1 WL Tokens, 3x Gen-1 Free Mint + 2x Base
             Gen-0/Gen-1 revenue share in SOL
           </Row.Col>
         </Row>
@@ -97,7 +97,7 @@ const StakingTiers = () => {
             Requirements: Traditional Staking Only. Must have been staked within
             8 days of mint
             <br />
-            Rewards: 10x Gen-1 WL Tokens, 5x Gen-1 Free Mint + 3x Base
+            Rewards: 5x Gen-1 WL Tokens, 5x Gen-1 Free Mint + 3x Base
             Gen-0/Gen-1 revenue share in SOL
           </Row.Col>
         </Row>

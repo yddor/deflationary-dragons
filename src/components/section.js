@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Section = styled.section`
-  padding: ${(props) => (props.padding ? props.padding : "3rem 0")};
+  padding: ${(props) => (props.padding ? props.padding : "5rem 0")};
   background-color: #371d23;
 
   ${(props) => props.minHeight && `min-height: ${props.minHeight};`}
