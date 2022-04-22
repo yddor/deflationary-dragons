@@ -52,7 +52,7 @@ const HeroBlock = () => {
         collaborative breeding, and participation in concurrent story events
         tied to authentically written original lore.
       </Lead>
-      <Cta>Mint TBD</Cta>
+      <Cta>Mint: May 4th</Cta>
     </StyledHeroBlock>
   );
 };
