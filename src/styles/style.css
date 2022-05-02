@@ -22,12 +22,6 @@ a {
   color: inherit;
 }
 
-@media (max-width: 1400px) {
-  html {
-    font-size: 14px;
-  }
-}
-
 @media (max-width: 1200px) {
   html {
     font-size: 12px;
