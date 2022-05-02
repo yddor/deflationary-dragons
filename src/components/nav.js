@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import logo_nav from "../images/logo_nav.svg";
-import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0.pdf";
+import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0_1.pdf";
 
 const Navbar = styled.div`
   height: 5rem;
@@ -41,8 +41,8 @@ const Toggle = styled.button`
     display: block;
 
     ${(props) =>
-    props.open === true &&
-    `
+      props.open === true &&
+      `
     &::before {
       top: 2.75rem;
       transform: rotate(-45deg);
@@ -138,11 +138,7 @@ const Nav = () => {
             </Link>
           </LinkWrapper>
           <LinkWrapper>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={whitepaper}
-            >
+            <a target="_blank" rel="noopener noreferrer" href={whitepaper}>
               <LinkButton>Whitepaper</LinkButton>
             </a>
           </LinkWrapper>

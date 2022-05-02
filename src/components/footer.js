@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import logo_footer from "../images/logo_footer.svg";
 import { Link } from "gatsby";
-import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0.pdf";
+import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0_1.pdf";
 
 const StyledFooter = styled.div`
   margin-top: 8rem;
@@ -65,11 +65,7 @@ const Footer = () => {
           <Link to="/lore">Lore</Link>
         </LinkButton>
         <LinkButton>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={whitepaper}
-          >
+          <a target="_blank" rel="noopener noreferrer" href={whitepaper}>
             Whitepaper
           </a>
         </LinkButton>

@@ -75,7 +75,7 @@ const IndexPage = () => {
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
-            <Row.Col size={6} sizeMd={12}>
+            <Row.Col size={6} sizeMd={12} dividedLg dividedXl divided>
               <TextBlock>
                 <TextBlock.Heading>Dragon Factions</TextBlock.Heading>
                 <TextBlock.Text>
@@ -177,7 +177,8 @@ const IndexPage = () => {
           </Row>
         </Container>
       </Section>
-      {/* <Section>
+
+      <Section>
         <Container>
           <TextBlock textAlign="center">
             <TextBlock.Heading>Tier-Based Staking</TextBlock.Heading>
@@ -189,16 +190,17 @@ const IndexPage = () => {
               the project, Deflationary Dragon NFT staking will be rewarded
               directly via airdropped SOL as well as with additional rewards in
               the form of whitelist tokens and free mints for the future Gen-1
-              project (see Gen-1 NFT Collection). Deflationary Dragon NFT
-              Holders will be categorized into 5 Tiers based on staking method
-              and time staked. Staking rewards will vary depending on tier, with
-              the highest tier earning the most rewards. Deflationary Dragon
-              staking rewards include: a percentage revenue share of royalties
-              from secondary sales of the Deflationary Dragon Gen-0 NFT
-              collection, a percentage revenue share of mint and secondary sale
-              royalties from the future Gen-1 NFT Collection (specified under
-              Gen-1 NFT Collection), and whitelist tokens/free mints for the
-              Gen-1 NFT Collection.
+              Collection.
+              <br />
+              <br />
+              Deflationary Dragon NFT Holders will be categorized into 5 Tiers
+              based on staking method and time staked. Staking rewards will vary
+              depending on tier, with the highest tier earning the most rewards.
+              Deflationary Dragon staking rewards include: a percentage share of
+              royalties from secondary sales of the Deflationary Dragon Gen-0
+              NFT collection, a percentage share of mint and secondary sale
+              royalties from the future Gen-1 NFT Collection, and whitelist
+              tokens/free mints for the Gen-1 NFT Collection.
             </TextBlock.Text>
           </TextBlock>
         </Container>
@@ -210,42 +212,75 @@ const IndexPage = () => {
       </Section>
       <Section>
         <Container>
+          <Section.Heading margin="0 0 6rem">Staking Options</Section.Heading>
           <Row>
             <Row.Col size={6} sizeMd={12}>
-              <TextBlock textAlign="center">
+              <TextBlock
+                textAlign="center"
+                style={{ paddingTop: 0, paddingBottom: 0 }}
+              >
                 <TextBlock.Heading>Liquid Staking</TextBlock.Heading>
                 <TextBlock.Text>
                   Holders can actively stake and un-stake at any time. No
                   penalty for unstaking. Tier will be determined by overall time
-                  staked. However time staked will reset to 0 if sold on a
-                  secondary market. For example: Holder stakes for 7 days,
-                  unstakes for 2 days, resumes staking for 7 days. Total time
-                  staked will be 7 + 7 = 14 days. On the 14th day of staking,
-                  the Dragon staked will reach tier 4 and unlock tier 4 rewards.
+                  staked. However time staked will reset to 0 and the NFT will
+                  revert to Tier 5 if sold on a secondary market or the NFT is
+                  sent to a different holder wallet.
+                  <br />
+                  <br />
+                  For example: Holder stakes for 7 days, unstakes for 2 days,
+                  resumes staking for 7 days. Total time staked will be 7 + 7 =
+                  14 days. On the 14th day of staking, the Dragon staked will
+                  reach tier 4 and begin earning tier 4 rewards.
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
-            <Row.Col size={6} sizeMd={12} divided>
-              <TextBlock textAlign="center">
-                <TextBlock.Heading>Liquid Staking</TextBlock.Heading>
+            <Row.Col size={6} sizeMd={12} dividedLg dividedXl divided>
+              <TextBlock
+                textAlign="center"
+                style={{ paddingTop: 0, paddingBottom: 0 }}
+              >
+                <TextBlock.Heading>Traditional Staking</TextBlock.Heading>
                 <TextBlock.Text>
-                  Holders will choose to stake and lock up their NFT until the
-                  Gen-1 Collection mint date. This action cannot be undone, once
-                  locked, holder will not be able to unstake until the mint of
-                  the Gen-1 Collection. Traditional Stakers will immediately
-                  unlock tier rewards at the time of staking. Note 1: The only
-                  way to access Tier 1 is to do traditional staking within 8
-                  days of mint. Note 2: Traditional Staked Deflationary Dragons
-                  will still be able to breed (see Breeding) For example: Holder
-                  chooses to lock up Dragon through traditional staking within 8
-                  days of mint. Dragon staked will immediately reach tier 1 and
-                  unlock tier 1 rewards.
+                  Holders will choose to stake and lock up their NFT for 88 days
+                  following the mint date. This action cannot be undone. Once
+                  locked, the NFT will be held in our stake escrow wallet and
+                  will be released and sent back to the original holder’s wallet
+                  88 days from mint on July 31st. While staked under this
+                  method, the holder will still be able to access their NFT from
+                  our staking platform and receive rewards earned by their
+                  staked NFT. Once the NFT is sent back, the NFT will hold Tier
+                  1 status forever, UNLESS it is sold or changes wallets, in
+                  which it will revert back to Tier 5.
+                  <br />
+                  <br />
+                  Traditional Stakers will immediately unlock tier access at the
+                  time of staking. Note 1: The only way to access Tier 1 is to
+                  traditional stake within 8 days of mint. Note 2: Past 8 days
+                  of mint, a holder can still elect to opt-in to traditional
+                  staking, which will result in immediate access to the highest
+                  qualified tier, based on the time difference between July 31st
+                  (traditional stake end time) and time traditional stake was
+                  elected.
+                  <br />
+                  <br />
+                  For example: Holder chooses to lock up Dragon through
+                  traditional staking within 8 days of mint. Dragon staked will
+                  immediately reach tier 1 and begin earning tier 1 rewards.
+                  <br />
+                  <br />
+                  Example 2: Holder chooses to lock up Dragon through
+                  traditional staking on June 1st. This is 61 days from July
+                  31st, which qualifies for the 60 day requirement for Tier 2.
+                  Dragon staked will immediately reach tier 2 and begin earning
+                  tier 2 rewards.
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
           </Row>
         </Container>
-      </Section> */}
+      </Section>
+
       <Section
         padding="12rem 0 0"
         minHeight="90rem"

@@ -105,10 +105,6 @@ const StakingTiers = () => {
       <Disclaimer>
         *Note: Elder and King Dragons staked will have an even further boost on
         top of tier rewards.
-        <br />
-        <br />
-        There will be two staking options for Deflationary Dragon NFT holders:
-        liquid staking and traditional staking.
       </Disclaimer>
     </div>
   );
