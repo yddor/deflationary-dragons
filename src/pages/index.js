@@ -245,8 +245,8 @@ const IndexPage = () => {
                   Holders will choose to stake and lock up their NFT for 88 days
                   following the mint date. This action cannot be undone. Once
                   locked, the NFT will be held in our stake escrow wallet and
-                  will be released and sent back to the original holder’s wallet
-                  88 days from mint on July 31st. While staked under this
+                  will be released and sent back to the original holder's wallet
+                  88 days from mint on August 1st. While staked under this
                   method, the holder will still be able to access their NFT from
                   our staking platform and receive rewards earned by their
                   staked NFT. Once the NFT is sent back, the NFT will hold Tier
@@ -259,9 +259,9 @@ const IndexPage = () => {
                   traditional stake within 8 days of mint. Note 2: Past 8 days
                   of mint, a holder can still elect to opt-in to traditional
                   staking, which will result in immediate access to the highest
-                  qualified tier, based on the time difference between July 31st
-                  (traditional stake end time) and time traditional stake was
-                  elected.
+                  qualified tier, based on the time difference between August
+                  1st (traditional stake end time) and time traditional stake
+                  was elected.
                   <br />
                   <br />
                   For example: Holder chooses to lock up Dragon through
@@ -270,8 +270,8 @@ const IndexPage = () => {
                   <br />
                   <br />
                   Example 2: Holder chooses to lock up Dragon through
-                  traditional staking on June 1st. This is 61 days from July
-                  31st, which qualifies for the 60 day requirement for Tier 2.
+                  traditional staking on June 1st. This is 61 days from August
+                  1st, which qualifies for the 60 day requirement for Tier 2.
                   Dragon staked will immediately reach tier 2 and begin earning
                   tier 2 rewards.
                 </TextBlock.Text>
