@@ -36,7 +36,6 @@ const Cta = styled.a`
   padding: 0.75rem 5rem;
   border-radius: 0.625rem;
   text-align: center;
-  cursor: not-allowed;
 `;
 
 const HeroBlock = () => {
@@ -52,7 +51,13 @@ const HeroBlock = () => {
         collaborative breeding, and participation in concurrent story events
         tied to authentically written original lore.
       </Lead>
-      <Cta>Mint: May 5th</Cta>
+      <Cta
+        href="https://www.mint-deflationarydragons.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Mint now
+      </Cta>
     </StyledHeroBlock>
   );
 };
