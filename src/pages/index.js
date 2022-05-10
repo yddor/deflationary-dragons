@@ -63,15 +63,16 @@ const IndexPage = () => {
                   A Deflationary Token System
                 </TextBlock.Heading>
                 <TextBlock.Text>
-                  The Deflationary Dragons NFT collection will implement a
+                  The Deflationary Dragons NFT collection implements a
                   “Guaranteed Floor Price” (GFP) for each NFT in the collection
-                  by promising to repurchase every NFT which is ever listed
-                  below the GFP. NFTs which are repurchased will then be put up
-                  to a “last chance auction” with the starting bid at GFP and
-                  open to holders only. If the auction ends with zero bids, the
-                  NFT will be permanently burned, and thus the overall supply of
-                  the collection will decrease, hence creating a deflationary
-                  token system.
+                  by providing a direct sales channel for holders to sell us
+                  their NFT at the GFP (available in our Discord). NFTs which
+                  are repurchased will then be put up to a “last chance auction”
+                  with the starting bid at GFP and open to holders only. If the
+                  auction ends with zero bids, the NFT will be permanently
+                  burned, and thus the overall supply of the collection will
+                  decrease, hence creating a deflationary token system. token
+                  system.
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
@@ -79,11 +80,11 @@ const IndexPage = () => {
               <TextBlock>
                 <TextBlock.Heading>Dragon Factions</TextBlock.Heading>
                 <TextBlock.Text>
-                  The Deflationary Dragons NFT collection will be composed of 8
+                  The Deflationary Dragons NFT collection is composed of 8
                   Dragon Factions with each faction consisting of 111 Dragons,
                   hence totaling an overall supply of 888 Dragons. The 8 Dragon
                   Factions are: Fire, Water, Earth, Air, Dark, Celestial,
-                  Lightning, and Cyborg. Factions will serve to grow and expand
+                  Lightning, and Cyborg. Factions serve to grow and expand
                   community involvement and engagement by playing a key role
                   within the community. Learn more about Factions on our project
                   Whitepaper.
@@ -154,10 +155,10 @@ const IndexPage = () => {
               <TextBlock textAlign="center">
                 <TextBlock.Heading>Dragon Ranks</TextBlock.Heading>
                 <TextBlock.Text>
-                  Within each Dragon Faction, there will be Dragons with
-                  different ranks. The guaranteed floor price of a Dragon will
-                  be directly based on rank. Within the 111 Dragons in each
-                  faction there will be:
+                  Within each Dragon Faction, there are Dragons with different
+                  ranks. The guaranteed floor price of a Dragon is directly
+                  based on rank. Within the 111 Dragons in each faction there
+                  are:
                 </TextBlock.Text>
                 <TextBlock.Text>
                   1 Elder Dragon with a 8 SOL guaranteed floor price
@@ -168,9 +169,9 @@ const IndexPage = () => {
                 </TextBlock.Text>
                 <TextBlock.Text>
                   Aside from having a higher GFP, Elder Dragons and King Dragons
-                  will also have boosted staking rewards, better breeding
-                  results, a more significant role in story events, and they
-                  will act as leaders within their factions.
+                  also have boosted staking rewards, better breeding results, a
+                  more significant role in story events, and they act as leaders
+                  within their factions.
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
@@ -183,19 +184,18 @@ const IndexPage = () => {
           <TextBlock textAlign="center">
             <TextBlock.Heading>Tier-Based Staking</TextBlock.Heading>
             <TextBlock.Text>
-              Immediately following the mint, Deflationary Dragon NFT holders
-              will have the option to stake their Dragon NFTs in exchange for
-              rewards. Unlike other projects which reward staking with a
-              separate native project token with little to no utility outside of
-              the project, Deflationary Dragon NFT staking will be rewarded
-              directly via airdropped SOL as well as with additional rewards in
-              the form of whitelist tokens and free mints for the future Gen-1
-              Collection.
+              Deflationary Dragon NFT holders have the option to stake their
+              Dragon NFTs in exchange for rewards. Unlike other projects which
+              reward staking with a separate native project token with little to
+              no utility outside of the project, Deflationary Dragon NFT staking
+              is rewarded directly via airdropped SOL as well as with additional
+              rewards in the form of whitelist tokens and free mints for the
+              future Gen-1 Collection.
               <br />
               <br />
-              Deflationary Dragon NFT Holders will be categorized into 5 Tiers
-              based on staking method and time staked. Staking rewards will vary
-              depending on tier, with the highest tier earning the most rewards.
+              Deflationary Dragon NFT Holders are categorized into 5 Tiers based
+              on staking method and time staked. Staking rewards vary depending
+              on tier, with the highest tier earning the most rewards.
               Deflationary Dragon staking rewards include: a percentage share of
               royalties from secondary sales of the Deflationary Dragon Gen-0
               NFT collection, a percentage share of mint and secondary sale
@@ -224,7 +224,7 @@ const IndexPage = () => {
                   Holders can actively stake and un-stake at any time. No
                   penalty for unstaking. Tier will be determined by overall time
                   staked. However time staked will reset to 0 and the NFT will
-                  revert to Tier 5 if sold on a secondary market or the NFT is
+                  revert to Tier 5 if listed on a secondary market or the NFT is
                   sent to a different holder wallet.
                   <br />
                   <br />
@@ -250,8 +250,8 @@ const IndexPage = () => {
                   method, the holder will still be able to access their NFT from
                   our staking platform and receive rewards earned by their
                   staked NFT. Once the NFT is sent back, the NFT will hold Tier
-                  1 status forever, UNLESS it is sold or changes wallets, in
-                  which it will revert back to Tier 5.
+                  1 status forever, UNLESS it is listed on a secondary market or
+                  changes wallets, in which it will revert back to Tier 5.
                   <br />
                   <br />
                   Traditional Stakers will immediately unlock tier access at the

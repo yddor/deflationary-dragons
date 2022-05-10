@@ -61,12 +61,11 @@ const HeroBlock = () => {
       <Heading>Explore the Dragonverse</Heading>
       <Lead>
         Deflationary Dragons is a NFT collection of 888 uniquely designed
-        dragons that will be minted on the Solana Blockchain. Deflationary
-        Dragons NFT seeks to differentiate itself from other projects by
-        providing holders with several distinct and innovative features
-        including: a deflationary token system, tier-based staking,
-        collaborative breeding, and participation in concurrent story events
-        tied to authentically written original lore.
+        dragons on the Solana Blockchain. Deflationary Dragons NFT seeks to
+        differentiate itself from other projects by providing holders with
+        several distinct and innovative features including: a deflationary token
+        system, tier-based staking, collaborative breeding, and participation in
+        concurrent story events tied to authentically written original lore.
       </Lead>
       <SecondaryTitle>Find our collection on:</SecondaryTitle>
       <Cta

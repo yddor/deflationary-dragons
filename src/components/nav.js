@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
 import logo_nav from "../images/logo_nav.svg";
-import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0_1.pdf";
+import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0_2.pdf";
 
 const Navbar = styled.div`
   height: 5rem;
