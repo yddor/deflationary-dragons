@@ -34,6 +34,7 @@ const LorePage = () => {
       <Section>
         <Container>
           <TextBlock textAlign="center">
+            <TextBlock.Heading>Chapter 0: Origin</TextBlock.Heading>
             <TextBlock.Text>
               In the beginning, there was nothing… nothing but the silence of an
               infinite darkness. Abruptly, from the depths of such darkness,
@@ -120,6 +121,151 @@ const LorePage = () => {
               other elements that they began to conceptualize the faction from
               which they belonged. Thus, this is how our world came to be…
             </TextBlock.Text>
+          </TextBlock>
+          <TextBlock textAlign="center">
+            <TextBlock.Heading>Chapter 1: Beginning</TextBlock.Heading>
+            <TextBlock.Text>
+              As tumultuous as the spark of life and the birth of the world was,
+              the genesis of sentience was no less turbulent and confusing.
+              Sprung out from the very elements of the world itself, the dragons
+              wildly sought to find their place. Some sought isolation as an
+              alleviating means; lurking in dark caves, sleeping on piles of
+              treasure, or basking in the heat of active volcanos. Watching the
+              sun set in solitude, they've chosen to wait to see what future
+              days bring. Others have sought comfort in finding a
+              community—finding companionship with those birthed from the same
+              elemental forces.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              As streams and rivers always find their way towards larger bodies
+              of water, those birthed from the dew naturally pooled together.
+              With a strong and engaged Elder leading their Kings and Warriors
+              through the currents, the Water Faction emerged from 'The
+              Parturition' as the most organized faction. With strong leadership
+              and robust individual members, the <b>Water Faction</b> will most
+              certainly be a formidable force in the future.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              In terms of raw strength, following closely behind the Water
+              Faction are the <b>Cyborgs</b>. With a mighty elder and engaged
+              community, the Cyborg Faction immediately thrived. Hungry for
+              information, the Cyborgs jointly cached their power, working
+              together to collect data to stave off their eager minds. Coming up
+              with new innovative ways to work together, the Cyborg Faction has
+              so far thrived off their intelligence and the leadership of their
+              powerful Elder.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              But in a troubling development, the Cyborg Elder made a bold move.
+              Through the study of the elements and coming to understand the
+              laws of nature, Cyborg Dragons learned of the importance of heat
+              in the manufacture of precious metals. Seeking to cement the power
+              of their faction, the Cyborg Elder made a preemptive strike,
+              imposing its will on the Fire Elder and taking control of its
+              being.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              The <b>Fire Faction</b> surfaced from 'The Parturition' as one of
+              the weaker elemental groups. With an average Elder before the
+              Cyborg take over, faction members have not been very engaged,
+              preferring to act on their own accord rather than as a group.
+              Fixated on growing their own strength and a bit self-serving in
+              nature, Fire Dragons have garnered the stereotype of lacking a
+              desire to cooperate as a team.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              It has yet to be foreseen whether the Cyborg Elder will choose to
+              work with the Fire Elder to strengthen the bonds between their two
+              factions, or if the Cyborg Elder took over the Fire Elder in an
+              attempt to control the Fire Faction for its own faction's
+              nefarious means. But while this development and the faction's lack
+              of community effort have caused others to deem the Fire Faction as
+              being 'weak', their strength should not be dismissed.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              For all it takes to burn down a dry forest is a single spark.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              Another faction facing troubles with cooperation is the{" "}
+              <b>Dark Faction</b>. Self-obsessed in nature and egotistically
+              believing their faction to be the best, the Dark Dragons have not
+              worked on much community building. Despite this decision putting
+              their faction on the bottom of 'the leaderboard', Dark Dragons
+              continue to deem teamwork as being unnecessary. While certainly
+              handicapped by their own ignorance, independence is not a weak
+              trait, but it may become detrimental without moderation.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              While lagging behind the others, the Dark Faction has recently
+              begun to stir—with their quiet Elder beginning its effort in
+              rallying the faction's Kings and Warriors. In the grand scope, the
+              Dark Faction's power is not too far off from the others. Who knows
+              what level of strength the Dark Dragons can reach once they
+              finally accumulate their community's power…
+            </TextBlock.Text>
+            <TextBlock.Text>
+              The Earth Faction cropped up as one of the weaker factions with
+              average leadership. Despite this, the Earth Dragons set off to
+              work, toiling the soil and investing in the ground they shared.
+              While the benefits of their labor weren’t immediate, they
+              eventually paid off as the faction steadily gained strength.
+              Well-knowledged in the working of the universe and with a great
+              sense of wisdom, the Earth Dragons today now stand among the top 3
+              most powerful factions.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              Opposite of their hard-working, land-dwelling brethren are the{" "}
+              <b>Air Dragons</b>. Near the bottom in terms of power, their lack
+              of faction strength is not due to a lack of cooperation. On the
+              contrary, Air Dragons are some of the most active avian creatures,
+              enjoying chatting and playing with each other. And with an Elder
+              who spends good effort to bring the Air Faction community
+              together, their weak faction strength doesn’t stem from a lack of
+              community values. Rather, Air Dragons sometimes find themselves
+              too distracted playing in the wind like the free spirits they are.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              The <b>Celestial Faction</b> is a strong unit who have thrived in
+              their efforts in faction-building as a team. A large problem
+              Celestial Dragons currently face is the absence of their Elder.
+              But the gap left open by their unengaged Elder has given many
+              Celestial Kings and Warriors the chance to shine bright and take
+              leadership into their own hands. With a more decentralized
+              leadership, the Celestial Faction has shown off the most dazzling
+              community as of yet.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              Much like the Celestials, the <b>Lightning Faction</b> has also
+              formed an amazing community off great teamwork. But what gives the
+              Lightning Faction an edge over their Celestial brethren is their
+              resourceful Elder, who is very active in the community and has
+              pooled together many resources for its faction to utilize. With an
+              instilled sense of community, a strong willingness to work
+              together, and great leadership, Lightning Dragons have an
+              energetic future to look forward to.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              Although some factions have become clear ‘front runners of the
+              pack’ through stellar leadership and organization, the overall
+              difference in power between factions is not all that great. The
+              majority of dragons have elected to join their elemental faction,
+              with some dragons being more social than others and some dragons
+              preferring to keep to themselves. The Parturition was a tumultuous
+              and confusing time, but as the creatures of this new world began
+              to find their place and realize their purpose, they could only
+              theorize the scope of their limitations.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              But not all dragons have found themselves a home. Of the 888
+              dragons born to this world, about 40 dragons have not settled
+              down. They continue to roam the world as nomads; traveling vast
+              distances, exploring the world for its wonders, and never staying
+              in one place for too long. Exactly when these dragons will settle
+              down and join their elemental factions (if they ever will) has yet
+              to be foreseen. But until then, this closes the first page of
+              history.
+            </TextBlock.Text>
+            <TextBlock.Text>Onto a new day.</TextBlock.Text>
           </TextBlock>
         </Container>
       </Section>
