@@ -267,6 +267,70 @@ const LorePage = () => {
             </TextBlock.Text>
             <TextBlock.Text>Onto a new day.</TextBlock.Text>
           </TextBlock>
+          <TextBlock textAlign="center">
+            <TextBlock.Heading>Chapter 2: Conflict</TextBlock.Heading>
+            <TextBlock.Text>
+              Following the event of the Fire Elder’s take over, the Cyborg
+              elder made its ambitions clear: to bring all Cyborg and Fire
+              Dragons alike under one banner. And thus, the first alliance
+              between elemental factions was formed.
+            </TextBlock.Text>
+            <TextBlock.Text>The Metallurgy Accord.</TextBlock.Text>
+            <TextBlock.Text>
+              Alarmed by the formation of the Metallurgy Accord, the Dragon
+              community was sent into a frenzy. An unspoken rule was broken, and
+              all Dragons understood any alliance formed between two or more
+              elements would disturb the fragile balance of their young world.
+              In the back of the Dragons’ minds, however, they knew this
+              development was only a matter of time.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              With the leader of the Water Dragons calling for the Dragon
+              communities to respond to the Fire and Cyborg Factions' ambitions,
+              a grand alliance was formed. The strong and forceful Water, the
+              stalwart and wise Earth, the cunning and negotiable Dark, and the
+              mighty Lightning. Agreeing that the Metallurgy Accord threatened
+              the balance between elements, a 4-way pact was signed to curb the
+              Metallurgy Accord’s growth to power.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              The League of Dragons set off to war.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              The Fire and Cyborg Factions sought allies in the remaining
+              non-involved factions, but their efforts were fruitless. The
+              Celestial Faction, in disarray from their vanished Elder and
+              missing upper echelon members, were unable to muster and organize
+              their forces. The Air Faction favored supporting the Metallurgy
+              Accord, believing the League of Dragons threatened the balance of
+              power its faction members so passionately claimed to protect, but
+              they too could not marshal their commitment, the carefree
+              independent spirit of Air Dragons delayed the process long enough
+              for the League of Dragons to strike first.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              The bonds of the Metallurgy Accord were as strong as cast steel,
+              but even they could not persevere against the overwhelming force
+              that rose to oppose them. Outnumbered 2-to-1, the Fire and Cyborg
+              Factions were beaten back. Seizing their treasure stores, the
+              Water, Lightning, Earth, and Dark factions emerged from the
+              conflict with weighted pouches and with a decisive victory
+            </TextBlock.Text>
+            <TextBlock.Text>
+              Thus, the first conflict in the age of dragons comes to an end.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              While the Fire and Cyborg Dragons were beaten this time, their
+              strength is anything but depleted, and while the League of Dragons
+              drink from the fruits of their labor and celebrate the success of
+              their alliance, all it takes is one unruly spirit to crumble
+              friendships and break bonds.
+            </TextBlock.Text>
+            <TextBlock.Text>
+              For if anything was made certain in this time of hostility, it's
+              that grudges were made and some in this world desire more power.
+            </TextBlock.Text>
+          </TextBlock>
         </Container>
       </Section>
       <Section
