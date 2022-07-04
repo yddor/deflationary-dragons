@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import logo_footer from "../images/logo_footer.svg";
 import { Link } from "gatsby";
-import whitepaper from "../pdf/Deflationary_Dragons_Whitepaper_v2.0_2.pdf";
+import whitepaper from "../pdf/Whitepaper_3.0.pdf";
 
 const StyledFooter = styled.div`
   margin-top: 8rem;
@@ -37,7 +37,7 @@ const Footer = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://twitter.com/DefDragonsSOL"
+          href="https://twitter.com/DragonverseSOL"
         >
           <LinkButton>
             <svg height="1em" fill="currentColor" viewBox="0 0 16 16">

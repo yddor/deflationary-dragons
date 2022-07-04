@@ -32,6 +32,10 @@ import raphael_hatencia from "../images/raphael_hatencia.png";
 import founding_dragon from "../images/founding_dragon.png";
 import pitaszenko from "../images/pitaszenko.png";
 import Footer from "../components/footer";
+import stake_to_hatch from "../images/stake_to_hatch.svg";
+import Cta from "../components/cta";
+import whitepaper from "../pdf/Whitepaper_3.0.pdf";
+import dragonverse from "../images/dragonverse.svg";
 
 const IndexPage = () => {
   return (
@@ -42,7 +46,7 @@ const IndexPage = () => {
         <link rel="canonical" href="https://www.deflationarydragons.com/" />
       </Helmet>
       <Section
-        padding="5rem 0 0"
+        padding="5rem 0"
         minHeight="76.25rem"
         backgroundImage={`url(${mist}), url(${hero})`}
         backgroundSize="auto, auto 100%"
@@ -59,35 +63,33 @@ const IndexPage = () => {
           <Row>
             <Row.Col size={6} sizeMd={12}>
               <TextBlock textAlign={"right"}>
-                <TextBlock.Heading>
-                  A Deflationary Token System
-                </TextBlock.Heading>
+                <TextBlock.Heading>Dragon Factions</TextBlock.Heading>
                 <TextBlock.Text>
-                  The Deflationary Dragons NFT collection implements a
-                  “Guaranteed Floor Price” (GFP) for each NFT in the collection
-                  by providing a direct sales channel for holders to sell us
-                  their NFT at the GFP (available in our Discord). NFTs which
-                  are repurchased will then be put up to a “last chance auction”
-                  with the starting bid at GFP and open to holders only. If the
-                  auction ends with zero bids, the NFT will be permanently
-                  burned, and thus the overall supply of the collection will
-                  decrease, hence creating a deflationary token system. token
-                  system.
+                  The Dragonverse NFT collections are composed of 8 Dragon
+                  Factions with each faction consisting of 111 Gen-0 Dragons and
+                  1111 Gen-1 Dragons, hence totaling an overall supply of 888
+                  Gen-0 Dragons and 8888 Gen-1 Dragons. The 8 Dragon Factions
+                  are: Fire, Water, Earth, Air, Dark, Celestial, Lightning, and
+                  Cyborg. Factions serve to grow and expand community
+                  involvement and engagement by playing a key role within the
+                  community. Factions will compete amongst each other to conquer
+                  territory and earn rewards in the Dragonverse. Learn more on
+                  our project Whitepaper.
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
             <Row.Col size={6} sizeMd={12} dividedLg dividedXl divided>
               <TextBlock>
-                <TextBlock.Heading>Dragon Factions</TextBlock.Heading>
+                <TextBlock.Heading>Dragon Ranks</TextBlock.Heading>
                 <TextBlock.Text>
-                  The Deflationary Dragons NFT collection is composed of 8
-                  Dragon Factions with each faction consisting of 111 Dragons,
-                  hence totaling an overall supply of 888 Dragons. The 8 Dragon
-                  Factions are: Fire, Water, Earth, Air, Dark, Celestial,
-                  Lightning, and Cyborg. Factions serve to grow and expand
-                  community involvement and engagement by playing a key role
-                  within the community. Learn more about Factions on our project
-                  Whitepaper.
+                  Within each Dragon Faction, there are Dragons with different
+                  ranks. Dragon ranks affect rarity, act as different roles
+                  within the community, and will have real implications in the
+                  Dragonverse. Within the 111 Gen-0 Dragons in each faction,
+                  there are: 1 Elder Dragon, 10 King Dragons, and 100 Warrior
+                  Dragons. In Gen-1, there will be 4 new ranks with each faction
+                  having: 1 Elder Child Dragon, 10 Princess Dragons, 100 Prince
+                  Dragons, and 1000 Knight Dragons.
                 </TextBlock.Text>
               </TextBlock>
             </Row.Col>
@@ -153,27 +155,20 @@ const IndexPage = () => {
           <Row alignCenter>
             <Row.Col size={8} sizeSm={12}>
               <TextBlock textAlign="center">
-                <TextBlock.Heading>Dragon Ranks</TextBlock.Heading>
+                <TextBlock.Heading>Gen-1: Stake-To-Hatch</TextBlock.Heading>
                 <TextBlock.Text>
-                  Within each Dragon Faction, there are Dragons with different
-                  ranks. The guaranteed floor price of a Dragon is directly
-                  based on rank. Within the 111 Dragons in each faction there
-                  are:
-                </TextBlock.Text>
-                <TextBlock.Text>
-                  1 Elder Dragon with a 8 SOL guaranteed floor price
-                  <br />
-                  10 King Dragons with a 1.8 SOL guaranteed floor price
-                  <br />
-                  100 Warrior Dragons with a 0.8 SOL guaranteed floor price
-                </TextBlock.Text>
-                <TextBlock.Text>
-                  Aside from having a higher GFP, Elder Dragons and King Dragons
-                  also have boosted staking rewards, better breeding results, a
-                  more significant role in story events, and they act as leaders
-                  within their factions.
+                  The Dragonverse Gen-1 Collection will be an initial NFT
+                  collection of 8888 eggs which will then hatch/reveal into
+                  uniquely designed second generation Dragons. Once minted, a
+                  Gen-1 Egg must be staked for 8 days in order to “hatch” or
+                  reveal into its true form of a Dragonverse Gen-1 Dragon.
+                  Therefore, the collection as a whole will not reveal all at
+                  once. Instead, eggs will reveal on an individual basis once
+                  they have met the staking requirement. Eggs must hatch into a
+                  Gen-1 Dragon in order to participate in the Dragonverse.
                 </TextBlock.Text>
               </TextBlock>
+              <img src={stake_to_hatch} style={{ width: "100%" }} />
             </Row.Col>
           </Row>
         </Container>
@@ -181,31 +176,40 @@ const IndexPage = () => {
 
       <Section>
         <Container>
-          <TextBlock textAlign="center">
-            <TextBlock.Heading>Tier-Based Staking</TextBlock.Heading>
+          <Section.Heading>The Dragonverse</Section.Heading>
+          <TextBlock>
+            <TextBlock.Heading>
+              An all-in-one cooperative P2E gamified staking platform
+            </TextBlock.Heading>
             <TextBlock.Text>
-              Deflationary Dragon NFT holders have the option to stake their
-              Dragon NFTs in exchange for rewards. Unlike other projects which
-              reward staking with a separate native project token with little to
-              no utility outside of the project, Deflationary Dragon NFT staking
-              is rewarded directly via airdropped SOL as well as with additional
-              rewards in the form of whitelist tokens and free mints for the
-              future Gen-1 Collection.
-              <br />
-              <br />
-              Deflationary Dragon NFT Holders are categorized into 5 Tiers based
-              on staking method and time staked. Staking rewards vary depending
-              on tier, with the highest tier earning the most rewards.
-              Deflationary Dragon staking rewards include: a percentage share of
-              royalties from secondary sales of the Deflationary Dragon Gen-0
-              NFT collection, a percentage share of mint and secondary sale
-              royalties from the future Gen-1 NFT Collection, and whitelist
-              tokens/free mints for the Gen-1 NFT Collection.
+              The Dragonverse is an all-in-one cooperative play-to-earn gamified
+              staking platform which incorporates everything we’ve built with
+              our project up until this point. Players will need to hold and own
+              either Gen-0 or Gen-1 NFTs in order to play and earn rewards in
+              the game.
             </TextBlock.Text>
           </TextBlock>
+          <TextBlock>
+            <TextBlock.Heading>Game Overview</TextBlock.Heading>
+            <TextBlock.Text>
+              The Dragonverse functions as a map-based territory conquest
+              cooperative strategy game, in which factions will compete to take
+              control of the most territories on the Dragonverse Map by being
+              the faction with the most Dragons staked in such territories. Each
+              Dragon can be chosen to be staked in a specific territory by its
+              owner, and factions will have to cooperate amongst themselves and
+              strategically decide where and how they should allocate their
+              distribution of staked Dragons on the map in order to control the
+              best territories. Each individual territory will have distinct
+              rewards for the faction that controls it which could come in the
+              form of SOL, NFTs, whitelist spots, alpha, private group/discord
+              invites, and other tools (depending on partnerships and sponsors).
+            </TextBlock.Text>
+          </TextBlock>
+          <img src={dragonverse} />
         </Container>
       </Section>
-      <Section>
+      {/*<Section>
         <Container>
           <StakingTiers />
         </Container>
@@ -279,7 +283,7 @@ const IndexPage = () => {
             </Row.Col>
           </Row>
         </Container>
-      </Section>
+      </Section>*/}
 
       <Section
         padding="12rem 0 0"
@@ -292,44 +296,12 @@ const IndexPage = () => {
           <Row>
             <Row.Col size={8} sizeSm={12}>
               <TextBlock>
-                <TextBlock.Heading>Utility</TextBlock.Heading>
-                <TextBlock.List>
-                  <TextBlock.List.Item>
-                    Access to private holder-only and faction-only discord
-                    channels in server
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Access to immediate liquidity at GFP if one is desperate to
-                    sell
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Revenue share of royalties from sales in secondary market
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Revenue share of mint and royalties from future Gen-1
-                    Collection and any other future collections
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Ability to stake the Dragon NFT for an increased share of
-                    the above revenue streams proportional to how long one is
-                    staking for. Longer stake = larger percentage share of
-                    revenues
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Those who stake their Dragon NFT will also earn rewards in
-                    the form of WL tokens and FREE mints for the future Gen-1
-                    Collection. Quantity will be determined by how long one has
-                    been staking for
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Ability to breed their Dragon NFT which will result in a
-                    free mint of the Gen-1 Collection.
-                  </TextBlock.List.Item>
-                  <TextBlock.List.Item>
-                    Lore Participation. Ability to participate in story events,
-                    vote on faction decisions, etc.
-                  </TextBlock.List.Item>
-                </TextBlock.List>
+                <TextBlock.Heading>
+                  Everything you need to know
+                </TextBlock.Heading>
+                <TextBlock.Text>
+                  <Cta title="Whitepaper" link={whitepaper}></Cta>
+                </TextBlock.Text>
               </TextBlock>
             </Row.Col>
             <Row.Col size={4} sizeSm={12}>
