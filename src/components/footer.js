@@ -12,6 +12,7 @@ const StyledFooter = styled.div`
 
 const Logo = styled.img`
   margin: 0 auto;
+  height: 7rem;
 `;
 
 const Links = styled.div`

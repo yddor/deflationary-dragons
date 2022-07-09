@@ -5,7 +5,7 @@ import logo_nav from "../images/logo_nav.svg";
 import whitepaper from "../pdf/Whitepaper_3.0.pdf";
 
 const Navbar = styled.div`
-  height: 5rem;
+  height: 7rem;
 `;
 
 const Toggle = styled.button`

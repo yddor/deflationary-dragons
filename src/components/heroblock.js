@@ -4,7 +4,7 @@ import Row from "../components/row";
 import TextBlock from "../components/textblock";
 
 const StyledHeroBlock = styled.div`
-  margin-top: 9rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,10 +70,13 @@ const HeroBlock = () => {
         May, we introduced several distinct and innovative features including: a
         deflationary token system, tier-based staking, breeding, and
         community-driven story events tied to authentically written original
-        lore. Now, with our soon to mint Gen-1 Collection, we are aiming to
-        offer a new, fun, and imaginative take on traditional NFT staking, with
-        an original stake-to-hatch mechanic, as well as play-to-earn utility in
-        our custom cooperative gamified staking platform: The Dragonverse.
+        lore.
+        <br />
+        <br />
+        Now, with our soon to mint Gen-1 Collection, we are aiming to offer a
+        new, fun, and imaginative take on traditional NFT staking, with an
+        original stake-to-hatch mechanic, as well as play-to-earn utility in our
+        custom cooperative gamified staking platform: The Dragonverse.
       </Lead>
       <Row>
         <Row.Col size={6} sizeMd={12}>
