@@ -15,8 +15,8 @@ const LorePage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Deflationary Dragons | Lore</title>
-        <link rel="canonical" href="https://www.deflationarydragons.com/lore" />
+        <title>Dragonverse | Lore</title>
+        <link rel="canonical" href="https://www.dragonversesol.com/lore" />
       </Helmet>
       <Section
         padding="5rem 0 0"
