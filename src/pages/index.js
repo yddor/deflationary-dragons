@@ -42,7 +42,7 @@ const IndexPage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Deflationary Dragons</title>
+        <title>Dragonverse</title>
         <link rel="canonical" href="https://www.deflationarydragons.com/" />
       </Helmet>
       <Section
